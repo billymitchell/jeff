@@ -20,7 +20,7 @@ body {
   max-width: 180px;
   border-radius: 50%;
   margin: 0 auto;
-  background: linear-gradient(90deg, #17ab4b, #0580c2);
+  background: linear-gradient(90deg, #ff446e, #ffd300);
   padding: 5px;
 }
 
@@ -98,5 +98,5 @@ a i {
   height: 4px;
   width: 100%;
   overflow-x: hidden;
-  background: linear-gradient(90deg, #17ab4b, #0580c2);
+  background: linear-gradient(90deg, #ff446e, #ffd300);
 }
