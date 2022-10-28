@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,577;1,577&display=swap');
+
+body {
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: clip;
+  position: relative;
+}
+
+.headshot {
+  width: 100%;
+  height: auto;
+  max-width: 180px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #17ab4b, #0580c2);
+  padding: 5px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1,
+p {
+  text-align: center;
+  color: #f7f7f7;
+}
+
+* {
+  font-family: 'Muli', Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+main a {
+  background-color: rgb(247 247 247 / 8%);
+  padding: 14px 20px 14px 20px;
+  margin-bottom: 10px;
+  color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  width: auto;
+  min-width: 250px;
+  align-self: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+main .social-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+main .social-group a {
+  min-width: unset;
+  padding: 17.75px;
+  border-radius: 50%;
+}
+
+.social-group i {
+  padding: 0;
+}
+
+a i {
+  padding-right: 10px;
+  font-size: 21px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.gradient-top {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  height: 4px;
+  width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(90deg, #17ab4b, #0580c2);
+}
